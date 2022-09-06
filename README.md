@@ -45,3 +45,5 @@ Follow our handy guides to get started on the basics as quickly as possible:
 {% content-ref url="bisque-api/install-python-bqapi.md" %}
 [install-python-bqapi.md](bisque-api/install-python-bqapi.md)
 {% endcontent-ref %}
+
+<figure><img src=".gitbook/assets/NEWBG.svg" alt=""><figcaption></figcaption></figure>
