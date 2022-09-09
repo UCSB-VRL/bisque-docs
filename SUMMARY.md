@@ -10,6 +10,7 @@
 * [Visualization](bisque-service/visualization.md)
 * [Analysis](bisque-service/analysis/README.md)
   * [CellECT 2.0](bisque-service/analysis/cellect-2.0.md)
+  * [NPH Prediction](bisque-service/analysis/nph-prediction.md)
 
 ## Running BisQue Service
 
