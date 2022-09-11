@@ -20,11 +20,17 @@ If you do not have an account, you can create one. If you already have an accoun
 
 BisQue supports many of the popular medical imaging file formats, i.e. `NIFTI`, `DICOM`. We will cover two of them here.
 
-**Upload `NIFTI`**
+#### **Upload `NIFTI`**
 
-Once logged in successfully, you will see **Upload** in the top menu bar. Click on **Upload** and feel free to **Drag-and-Drop** files or Select **Choose Files** or **Choose Directory**. Navigate to the `NIFTI` files on your computer and select the ones you want to upload, either individual files or an entire folder/directory. The supported `NIFTI` file types should end with `.nii` or `.nii.gz`.
+Once logged in successfully, you will see **Upload** in the top menu bar. Click on **Upload** and feel free to **Drag-and-Drop** files or Select **Choose Files** or **Choose Directory**. Navigate to the `NIFTI` files on your computer and select the ones you want to upload, either individual files or an entire folder/directory.
 
-_Example_
+{% hint style="info" %}
+**File Formats**
+
+The supported `NIFTI` file types should end with `.nii` or `.nii.gz`
+{% endhint %}
+
+#### Example
 
 ```
 CT35000.nii.gz
@@ -36,9 +42,15 @@ YOUR-FILENAME.nii.gz
 
 Once logged in successfully, you will see **Upload** in the top menu bar. Click on **Upload** and feel free to **Drag-and-Drop** files or Select **Choose Files** or **Choose Directory**.
 
-> **WARNING: DICOM FILES MUST BE ZIPPED!** Before uploading your folder of `DICOM` files, make sure they are compressed/zipped. On Mac, two-finger click on the file and hit **Compress `YOUR-FOLDERNAME`**. This will zip the folder and allow you to upload that single zipped file to BisQue. We currently do not support uploading the raw directory to BisQue.
+{% hint style="warning" %}
+**WARNING: DICOM FILES MUST BE ZIPPED!**&#x20;
 
-_Example_ Folder of Raw `DICOM`.
+Before uploading your folder of `DICOM` files, make sure they are compressed/zipped. On Mac, two-finger click on the file and hit **Compress `YOUR-FOLDERNAME`**. This will zip the folder and allow you to upload that single zipped file to BisQue. _We currently do not support uploading the raw directory to BisQue._
+{% endhint %}
+
+#### Example
+
+Folder of Raw `DICOM`.
 
 ```
 IM-0001-0001-0001.dcm

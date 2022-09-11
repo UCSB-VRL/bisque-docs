@@ -95,7 +95,7 @@ EdgeDetection.xml created
 
 Edit the `help.md` [markdown](https://www.markdownguide.org/basic-syntax/) file in the `public` folder to include any documentation and examples you want to provide users. When you are done, generate the html file by running `bqmod gen_help_html` from the `{ModuleName}` folder. Please do a hard refresh on your browser every time you make changes to `help.html`. If not, it's possible that the browser is just showing the old version of the file because it was cached.
 
-### **Module Folder Structure**
+**Module Folder Structure**
 
 This should be the resulting folder structure after creating the module.
 
