@@ -1,4 +1,4 @@
-# Upload Data to BisQue
+# Upload Data to BisQue via Web Browser
 
 ## Uploading Data to BisQue Service
 
