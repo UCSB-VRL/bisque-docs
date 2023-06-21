@@ -6,15 +6,14 @@
 
 This module is for segmenting a CT scan of a brain into 3 parts: lateral ventricles, cerebral matter, and subarachnoid space using a 3D UNet. A Support Vector Machine is then used to determine if the subject has possible Normal Pressure Hydrocephalus (NPH).
 
-**NPH Prediction Module Homepage**
 
-**How to Run NPH Prediction Module**
+**How to Run NPH Prediction Module:**
 
 ### STEP 1. Login
 
-From the [BisQue Homepage](https://bisque.ece.ucsb.edu/), the top right-hand corner has the **Sign In** button.
+From the [BisQue Homepage](https://bisque2.ece.ucsb.edu/), the top right-hand corner has the **Sign In** button.
 
-If you do not have an account, you can create one. If you already have an account, login using your credentials. There is even an option to reset your password just in case you forgot!
+If you do not have an account, you can create one. If you already have an account, login using your credentials.
 
 ### STEP 2. Upload Image(s)
 
@@ -80,11 +79,32 @@ Select the option that says **Several DICOM files in a package (unpack and inspe
 Once you are logged in successfully, you can access the NPH Prediction module by [Clicking Here](https://bisque.ece.ucsb.edu/module\_service/nphprediction/?wpublic=1) or by using the Menu bar at the top of the homepage.
 
 > **From the Menu Bar.** Using the Menu bar at the top of the screen, go to `Analyze --> NPH Prediction`. You might have to scroll down a little bit since we are adding more modules.
+> <figure><img src="../../.gitbook/assets/nph_module/nph_fig_open_module_page.png" alt="NPH Prediction Home Page"><figcaption></figcaption></figure>
+
 
 ### STEP 4. Run NPH Prediction Module
 
 Once on the NPH Prediction homepage,
 
-* `Select an image` you uploaded
-* `Select file` from PyTorch Model (Old or Young)
-* `Hit RUN!`
+* `Select an image` you uploaded.
+    * Click on `Select an Image` Button
+    * It should navigate you to `Resource Browser`, where you should be able to select an image that is uploaded.
+    * You should be able to see the selected image on the module page.
+    > <figure><img src="../../.gitbook/assets/nph_module/nph_fig_select_an_image.png" alt="NPH Prediction Home Page"><figcaption></figcaption></figure>
+* Select a PyTorch Model, which is the magic box that is trained to predict the presence of NPH by looking at the input scan.
+    * Click on `Select file` button.
+    * Cick on `Gear Icon` on top right corner of `Resource Browser`. Tick the box that corresponds to `Show public data`.
+    > <figure><img src="../../.gitbook/assets/nph_module/nph_fig_select_pytorch_model.png" alt="NPH Prediction Home Page"><figcaption></figcaption></
+    * In the search bar, type `filename:*_epoch200.pt` and hit Enter. This should filter out the required pytorch files. Now, select the first model in the list and hit `Select`.
+    > <figure><img src="../../.gitbook/assets/nph_module/nph_fig_select_pytorch_model_step2.png" alt="NPH Prediction Home Page"><figcaption></figcaption></
+
+* Hit `RUN` Button.
+
+* It is expected to take around 60 seconds to 300 seconds of runtime, depending upon the input file size, cluster compute availability, and various other factors.
+
+* Visualize the `Results`
+
+> <figure><img src="../../.gitbook/assets/nph_module/nph_fig_vis_results.png" alt="NPH Prediction Home Page"><figcaption></figcaption></
+
+* Instead of an image, one can also run the module on dataset of images.
+
