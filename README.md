@@ -1,6 +1,6 @@
 # Welcome
 
-## Welcome to the Official BisQue Documentation
+## Welcome to Official BisQue Documentation
 
 <figure><img src=".gitbook/assets/bq-github-banner2.png" alt=""><figcaption></figcaption></figure>
 
