@@ -4,13 +4,14 @@
 
 ## BisQue Service
 
+* [LogIn/SignUp](bisque-service/login-signup.md)
 * [Data Storage](bisque-service/data-storage/README.md)
   * [Upload Data to BisQue](bisque-service/data-storage/upload-data-to-bisque.md)
   * [Upload DICOMs](bisque-service/data-storage/upload-dicoms.md)
-* [Visualization](bisque-service/visualization.md)
-* [Analysis](bisque-service/analysis/README.md)
-  * [CellECT 2.0](bisque-service/analysis/cellect-2.0.md)
+* [Data Visualization](bisque-service/visualization.md)
+* [Data Analysis / Modules](bisque-service/analysis/README.md)
   * [NPH Prediction](bisque-service/analysis/nph-prediction.md)
+  * [CellECT 2.0](bisque-service/analysis/cellect-2.0.md)
 
 ## Running BisQue Service
 
