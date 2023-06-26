@@ -2,7 +2,7 @@
 
 ## Welcome to the Official BisQue Documentation
 
-<figure><img src=".gitbook/assets/bq-github-banner2.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/bq-github-banner2.png" alt=""><figcaption></figcaption></figure>
 
 ## What is BisQue
 
@@ -46,4 +46,4 @@ Follow our handy guides to get started on the basics as quickly as possible:
 [install-python-bqapi.md](bisque-api/install-python-bqapi.md)
 {% endcontent-ref %}
 
-<figure><img src=".gitbook/assets/NEWBG.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/NEWBG.png" alt=""><figcaption></figcaption></figure>
