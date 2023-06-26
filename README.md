@@ -28,15 +28,15 @@ Follow our handy guides to get started on the basics as quickly as possible:
 
 ## Developers
 
-**Deploy** BisQue locally with `Docker` or **Build** your own module using our BQ Module Generator Command Line Interface (CLI).
+**Deploy** BisQue locally with `Docker` and **Build** your own module using our BQ Module Generator Command Line Interface (CLI).
 
 {% content-ref url="running-bisque-service/installing-running-and-deploying-bisque.md" %}
 [installing-running-and-deploying-bisque.md](running-bisque-service/installing-running-and-deploying-bisque.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
+<!-- {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
-{% endcontent-ref %}
+{% endcontent-ref %} -->
 
 {% content-ref url="running-bisque-service/docker-installation.md" %}
 [docker-installation.md](running-bisque-service/docker-installation.md)
